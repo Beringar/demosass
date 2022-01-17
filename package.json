@@ -1,0 +1,17 @@
+{
+  "name": "demosass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "npx sass sass/styles.scss public/css/styles.css",
+    "compile-dev": "npx sass sass/styles.scss public/css/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.48.0"
+  }
+}
