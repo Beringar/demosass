@@ -1,0 +1,12 @@
+name: Example of Github Actions workflow
+on: push
+
+jobs:
+  thing1:
+    name: thing to do 1
+    runs-on: ubuntu-latest
+    steps:
+      - name: Subtask 1-1
+        run: echo "I'm the subrtask 1-1"
+      - name: Subtask 1-2
+        run: echo "I'm the subtask 1-2"
